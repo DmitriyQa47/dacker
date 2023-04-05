@@ -7,6 +7,6 @@ services:
     volumes:
       - ./data:/var/postgresql/data
     environment:
-      - MYSQL_DB=app
-      - MYSQL_USER=Dmitriy
-      - MYSQL_PASSWORD=9mREsvXDs9Gk89Ef
+      - POSTGRES_DB=app
+      - POSTGRES_USER=app
+      - POSTGRES_PASSWORD=9mREsvXDs9Gk89Ef
