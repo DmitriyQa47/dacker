@@ -5,8 +5,8 @@ services:
     ports:
       - '5432:5432'
     volumes:
-      - ./data:/var/lib/mysql
+      - ./data:/var/postgresql/data
     environment:
       - MYSQL_DB=app
-      - MYSQL_USER=app
+      - MYSQL_USER=Dmitriy
       - MYSQL_PASSWORD=9mREsvXDs9Gk89Ef
